@@ -1,0 +1,198 @@
+hamster-applet
+------------------------------------------
+This GNOME applet allows you to keep track on where are you spending 
+your time.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  gnome-panel-2.24.3-1
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-1
+  libX11_6-1.1.5-2
+  python-2.5.4-1
+  python-cairo-1.8.2-1
+  python-dateutil-1.4-1
+  python-dbus-0.83.0-1
+  python-evolution-2.24.1-1
+  python-gconf2-2.22.3-1
+  python-gnome2-2.22.3-1
+  python-gnomeapplet-2.24.1-1
+  python-gobject2-2.16.0-1
+  python-gtk2-2.14.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://projecthamster.wordpress.com/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/hamster-applet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack hamster-applet-2.24.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./hamster-applet-2.24.3-X.cygport all
+
+This will create:
+  /usr/src/hamster-applet-2.24.3-X-src.tar.bz2
+  /usr/src/hamster-applet-2.24.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/hamster-applet.schemas
+  /etc/postinstall/hamster-applet.sh
+  /etc/preremove/hamster-applet.sh
+  /usr/lib/bonobo/servers/Hamster_Applet.server
+  /usr/lib/hamster-applet/hamster-applet
+  /usr/lib/python2.5/site-packages/hamster/Configuration.py
+  /usr/lib/python2.5/site-packages/hamster/Configuration.pyc
+  /usr/lib/python2.5/site-packages/hamster/Configuration.pyo
+  /usr/lib/python2.5/site-packages/hamster/KeyBinder.py
+  /usr/lib/python2.5/site-packages/hamster/KeyBinder.pyc
+  /usr/lib/python2.5/site-packages/hamster/KeyBinder.pyo
+  /usr/lib/python2.5/site-packages/hamster/__init__.py
+  /usr/lib/python2.5/site-packages/hamster/__init__.pyc
+  /usr/lib/python2.5/site-packages/hamster/__init__.pyo
+  /usr/lib/python2.5/site-packages/hamster/about.py
+  /usr/lib/python2.5/site-packages/hamster/about.pyc
+  /usr/lib/python2.5/site-packages/hamster/about.pyo
+  /usr/lib/python2.5/site-packages/hamster/add_custom_fact.py
+  /usr/lib/python2.5/site-packages/hamster/add_custom_fact.pyc
+  /usr/lib/python2.5/site-packages/hamster/add_custom_fact.pyo
+  /usr/lib/python2.5/site-packages/hamster/applet.py
+  /usr/lib/python2.5/site-packages/hamster/applet.pyc
+  /usr/lib/python2.5/site-packages/hamster/applet.pyo
+  /usr/lib/python2.5/site-packages/hamster/charting.py
+  /usr/lib/python2.5/site-packages/hamster/charting.pyc
+  /usr/lib/python2.5/site-packages/hamster/charting.pyo
+  /usr/lib/python2.5/site-packages/hamster/db.py
+  /usr/lib/python2.5/site-packages/hamster/db.pyc
+  /usr/lib/python2.5/site-packages/hamster/db.pyo
+  /usr/lib/python2.5/site-packages/hamster/defs.py
+  /usr/lib/python2.5/site-packages/hamster/defs.pyc
+  /usr/lib/python2.5/site-packages/hamster/defs.pyo
+  /usr/lib/python2.5/site-packages/hamster/dispatcher.py
+  /usr/lib/python2.5/site-packages/hamster/dispatcher.pyc
+  /usr/lib/python2.5/site-packages/hamster/dispatcher.pyo
+  /usr/lib/python2.5/site-packages/hamster/eds.py
+  /usr/lib/python2.5/site-packages/hamster/eds.pyc
+  /usr/lib/python2.5/site-packages/hamster/eds.pyo
+  /usr/lib/python2.5/site-packages/hamster/idle.py
+  /usr/lib/python2.5/site-packages/hamster/idle.pyc
+  /usr/lib/python2.5/site-packages/hamster/idle.pyo
+  /usr/lib/python2.5/site-packages/hamster/keybinder/__init__.py
+  /usr/lib/python2.5/site-packages/hamster/keybinder/__init__.pyc
+  /usr/lib/python2.5/site-packages/hamster/keybinder/__init__.pyo
+  /usr/lib/python2.5/site-packages/hamster/keybinder/_keybinder.dll
+  /usr/lib/python2.5/site-packages/hamster/keybinder/_keybinder.la
+  /usr/lib/python2.5/site-packages/hamster/preferences.py
+  /usr/lib/python2.5/site-packages/hamster/preferences.pyc
+  /usr/lib/python2.5/site-packages/hamster/preferences.pyo
+  /usr/lib/python2.5/site-packages/hamster/reports.py
+  /usr/lib/python2.5/site-packages/hamster/reports.pyc
+  /usr/lib/python2.5/site-packages/hamster/reports.pyo
+  /usr/lib/python2.5/site-packages/hamster/stats.py
+  /usr/lib/python2.5/site-packages/hamster/stats.pyc
+  /usr/lib/python2.5/site-packages/hamster/stats.pyo
+  /usr/lib/python2.5/site-packages/hamster/storage.py
+  /usr/lib/python2.5/site-packages/hamster/storage.pyc
+  /usr/lib/python2.5/site-packages/hamster/storage.pyo
+  /usr/lib/python2.5/site-packages/hamster/stuff.py
+  /usr/lib/python2.5/site-packages/hamster/stuff.pyc
+  /usr/lib/python2.5/site-packages/hamster/stuff.pyo
+  /usr/share/doc/hamster-applet-2.24.3/AUTHORS
+  /usr/share/doc/hamster-applet-2.24.3/COPYING
+  /usr/share/doc/hamster-applet-2.24.3/ChangeLog
+  /usr/share/doc/hamster-applet-2.24.3/INSTALL
+  /usr/share/doc/hamster-applet-2.24.3/NEWS
+  /usr/share/doc/hamster-applet-2.24.3/README
+  /usr/share/gnome-control-center/keybindings/99-hamster-applet.xml
+  /usr/share/hamster-applet/Hamster_Applet.xml
+  /usr/share/hamster-applet/add_custom_fact.glade
+  /usr/share/hamster-applet/art/hamster-applet.png
+  /usr/share/hamster-applet/art/stock_calendar-view-day.png
+  /usr/share/hamster-applet/art/stock_calendar-view-month.png
+  /usr/share/hamster-applet/art/stock_calendar-view-week.png
+  /usr/share/hamster-applet/hamster.db
+  /usr/share/hamster-applet/menu.glade
+  /usr/share/hamster-applet/preferences.glade
+  /usr/share/hamster-applet/stats.glade
+  /usr/share/icons/hicolor/16x16/apps/hamster-applet.png
+  /usr/share/icons/hicolor/22x22/apps/hamster-applet.png
+  /usr/share/icons/hicolor/32x32/apps/hamster-applet.png
+  /usr/share/icons/hicolor/48x48/apps/hamster-applet.png
+  /usr/share/icons/hicolor/scalable/apps/hamster-applet.svg
+  /usr/share/locale/ar/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/bg/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/bn_IN/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/ca/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/cs/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/da/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/de/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/el/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/es/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/et/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/eu/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/fi/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/fr/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/gl/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/gu/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/he/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/hi/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/hu/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/it/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/ja/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/kn/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/ko/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/lt/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/lv/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/mk/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/ml/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/mr/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/nb/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/nl/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/pa/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/pl/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/pt/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/ru/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/sl/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/sq/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/sr/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/sr@latin/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/sv/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/ta/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/th/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/tr/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/zh_HK/LC_MESSAGES/hamster-applet.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/hamster-applet.mo
+
+------------------
+
+Port Notes:
+
+----- version 2.24.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
