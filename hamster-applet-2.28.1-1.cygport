@@ -1,8 +1,0 @@
-inherit pygtk
-
-DESCRIPTION="GNOME time-tracking panel applet"
-HOMEPAGE="http://projecthamster.wordpress.com/"
-
-DIFF_EXCLUDES="defs.py"
-
-CYGCONF_ARGS="--disable-schemas-install"

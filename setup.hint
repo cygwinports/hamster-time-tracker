@@ -1,5 +1,5 @@
 category: Gnome
-requires: libgcc1 libglib2.0_0 libgtk2.0_0 libX11_6 python python-cairo python-dbus python-evolution python-gconf2 python-gnome2 python-gnomeapplet python-gobject2.0 python-gtk2.0 python-pynotify
-sdesc: "GNOME time-tracking panel applet"
-ldesc: "This GNOME applet allows you to keep track on where are you 
+requires: python python-cairo python-dbus python-evolution python-gconf2 python-gobject python-gtk2.0 python-pynotify python-wnck python-xdg
+sdesc: "GNOME time-tracker"
+ldesc: "This GNOME application allows you to keep track on where are you 
 spending your time."
