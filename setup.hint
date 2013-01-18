@@ -1,5 +1,0 @@
-category: Gnome
-requires: python python-cairo python-dbus python-evolution python-gconf2 python-gobject python-gtk2.0 python-pynotify python-wnck python-xdg
-sdesc: "GNOME time-tracker"
-ldesc: "This GNOME application allows you to keep track on where are you 
-spending your time."

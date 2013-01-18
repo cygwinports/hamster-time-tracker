@@ -1,6 +1,12 @@
 inherit gnome2 python waf
 
-DESCRIPTION="GNOME time-tracker"
+NAME="hamster-applet"
+VERSION=2.32.1
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GNOME time-tracker"
+DESCRIPTION="This GNOME application allows you to keep track on where are you
+spending your time."
 HOMEPAGE="http://projecthamster.wordpress.com/"
 
 PATCH_URI="2.32.1-no-applet.patch"
