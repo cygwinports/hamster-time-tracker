@@ -1,0 +1,21 @@
+WAF_USE_BUNDLED=1
+inherit gnome2 python waf
+
+NAME="hamster-time-tracker"
+VERSION=1.04
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME time tracker"
+DESCRIPTION="This GNOME application allows you to keep track on where are you
+spending your time."
+HOMEPAGE="http://projecthamster.wordpress.com/"
+SRC_URI="https://github.com/projecthamster/hamster/archive/${NAME}-${VERSION}/hamster-${NAME}-${VERSION}.tar.gz"
+SRC_DIR="hamster-${NAME}-${VERSION}"
+
+OBSOLETES="hamster-applet"
+
+src_install() {
+	cd ${B}
+	waf_install
+	python_optimize
+}
