@@ -12,6 +12,8 @@ HOMEPAGE="http://projecthamster.wordpress.com/"
 SRC_URI="https://github.com/projecthamster/hamster/archive/${NAME}-${VERSION}/hamster-${NAME}-${VERSION}.tar.gz"
 SRC_DIR="hamster-${NAME}-${VERSION}"
 
+ARCH=noarch
+
 OBSOLETES="hamster-applet"
 
 src_install() {
